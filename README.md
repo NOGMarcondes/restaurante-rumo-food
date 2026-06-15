@@ -44,7 +44,7 @@ Sistema de gestão de pedidos para restaurante, desenvolvido como prova de conce
 git clone https://github.com/NOGMarcondes/restaurante-rumo-food.git
 
 # Entrar na pasta da API
-cd RestauranteAPI
+cd restaurante-rumo-food\RestauranteAPI
 
 # Instalar a ferramenta de migrations (caso não tenha)
 dotnet tool install --global dotnet-ef
