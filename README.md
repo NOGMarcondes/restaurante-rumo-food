@@ -61,12 +61,14 @@ dotnet run
 
 A API estará disponível em `http://localhost:5285`, com a documentação Swagger em `http://localhost:5285/swagger`.
 
+> **Observação:** acessar `http://localhost:5285` diretamente (sem `/swagger`) retorna erro 404 — isso é esperado, pois a API não possui uma rota mapeada na raiz. Use `/swagger` para explorar os endpoints disponíveis.
+
 ## Como rodar o Frontend
 
 1. Abra a pasta `RestauranteFront` no VS Code
 2. Clique com o botão direito no arquivo `login.html`
 3. Selecione **"Open with Live Server"**
-4. O navegador abrirá automaticamente em `http://127.0.0.1:5500/login.html`
+4. O navegador abrirá automaticamente 
 
 > **Importante:** a API precisa estar rodando (`dotnet run`) para que o frontend funcione corretamente.
 
