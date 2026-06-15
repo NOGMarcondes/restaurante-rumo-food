@@ -41,7 +41,7 @@ Sistema de gestão de pedidos para restaurante, desenvolvido como prova de conce
 
 ```bash
 # Clonar o repositório
-git clone <url-do-repositorio>
+git clone https://github.com/NOGMarcondes/restaurante-rumo-food.git
 
 # Entrar na pasta da API
 cd RestauranteAPI
