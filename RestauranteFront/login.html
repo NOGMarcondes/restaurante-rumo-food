@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/login.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="divCard">
+
+     <div class="card-header">
+       <h1>Sistema Restaurante</h1>
+     </div>
+
+     <div class="cardBody">
+
+      <div id="msgLogin"></div>
+
+         <div class="campoInput">
+           <label>Email:</label>
+           <input type="text" id="email" placeholder="seu@email.com">
+         </div>
+
+         <div class="campoInput">
+           <label>Senha:</label>
+           <input type="password" id="password" placeholder="Digite sua Senha">
+         </div>
+
+         <div class="ButtonsLogin">
+          <button class="BtnLogin" onclick="limparLogin()">Limpar</button>
+          <button onclick="fazerLogin()" class="BtnLogin">Entrar</button>
+         </div>
+
+         <hr>
+           
+         <p>v1.0-2026</p>
+
+        
+     </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/copa.css">
+  <title>Setor Copa</title>
+</head>
+<body>
+
+  <div class="sideBar">
+    <h1>Restaurante</h1>
+    <p>Pedidos</p>
+    <p onclick="window.location.href='historico.html?setor=Copa'">Historico</p>
+    <button class="btnSair" onclick="sair()">Sair</button>
+  </div>
+
+  <div class="main">
+
+    <div class="topbar">
+
+      <h2>Setor: Copa</h2>
+      <a href="">Apenas Bebidas</a>
+
+    </div>
+
+    <div class="content">
+        <div class="card">
+          <div class="card-header">Pedidos - Copa</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Mesa</th>
+                  <th>Clientes</th>
+                  <th>Produto</th>
+                  <th>Qtd</th>
+                  <th>Status</th>
+                  <th>Acao</th>
+                </tr>
+              </thead>
+              <tbody id="tabela-copa"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+      <p>v1.0</p>
+      <p>Sistema Restaurante</p>
+    </div>
+
+  </div>
+
+  <script src="js/copa.js"></script>
+</body>
+</html>

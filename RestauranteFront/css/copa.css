@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-primaria: #1a1a2e;
+  --cor-secundaria: #0f3460;
+  --cor-fundo: #e8e8e8;
+  --cor-borda: #bbb;
+  --cor-branco: #fff;
+  --cor-texto-claro: #aaa;
+}
+
+body{
+
+  display: flex;
+  height: 100vh;
+
+}
+
+.sideBar{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  width: 150px;
+  min-height: 100vh;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 12px;
+}
+.sideBar p {
+  cursor: pointer;
+  padding: 8px 10px;
+  border: 1px solid #333;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+.sideBar p:hover {
+  background-color: var(--cor-secundaria);
+  border-color: var(--cor-secundaria);
+}
+
+.main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  background-color: var(--cor-fundo);
+  padding: 12px;
+  flex: 1;
+}
+
+.card{
+  background-color: var(--cor-branco);
+  border: 1px solid var(--cor-borda);
+}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+}
+
+.topbar a {
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: var(--cor-texto-claro);
+  border: 1px solid var(--cor-secundaria);
+  padding: 8px;
+  color: var(--cor-fundo);
+
+}
+
+.card-header{
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  padding: 6px 12px;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+th{
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  padding: 6px 8px;
+  text-align: left;
+}
+
+td{
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.btnPronto {
+  background-color: #2e7d32;
+  color: var(--cor-branco);
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.btnPronto:hover {
+  background-color: #1b5e20;
+}
+.footer{
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
+  padding: 6px 14px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.btnSair {
+  margin-top: auto;
+  cursor: pointer;
+  padding: 8px;
+  background: none;
+  border: 1px solid #555;
+  color: var(--cor-texto-claro);
+  width: 100%;
+}
+
+.btnSair:hover {
+  background-color: #c62828;
+  color: #fff;
+  border-color: #c62828;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/cozinha.css">
+  <title>Registro de Pedido</title>
+</head>
+<body>
+
+  <div class="sideBar">
+  <h1>Restaurante</h1>
+  <p onclick="window.location.href='funcionario.html'">Novo Pedido</p>
+  <p onclick="window.location.href='historico.html'">Historico</p>
+  <button class="btnSair" onclick="sair()">Sair</button>
+</div>
+
+  <div class="main">
+
+    <div class="topbar">
+
+      <h2>Historico de Pedidos</h2>
+      
+
+    </div>
+
+    <div class="content">
+        <div class="card">
+          <div class="card-header">Pedidos Finalizados</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Mesa</th>
+                  <th>Clientes</th>
+                  <th>Setor</th>
+                  <th>Data/Hora</th>
+                  <th>Status</th> 
+                </tr>
+              </thead>
+              <tbody id="tabela-historico"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+      <p>v1.0</p>
+      <p>Sistema Restaurante</p>
+    </div>
+
+  </div>
+
+  <script src="js/historico.js"></script>
+</body>
+</html>
